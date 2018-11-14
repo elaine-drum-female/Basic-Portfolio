@@ -1,0 +1,54 @@
+body {
+    margin:0 auto;
+    width:960px;
+}
+
+header {
+    position:relative;
+}
+
+h1 {
+    background:#4aaaa5;
+    color:#fff;
+    display:inline-block;
+    padding:20px;
+}
+
+ nav {
+     display:inline-block;
+     margin-top:20px;
+     position:absolute;
+     right:0;
+
+ }
+
+    nav ul {
+        padding:10px 0;
+        display:inline-block;
+        width:84px;
+        text-transform: capitalize;
+        text-align:center;
+    }
+
+
+section {
+        clear:both;
+}
+
+    article {
+        background:#fff;
+        border:1px solid #ddd;
+        padding:20px;
+    }
+
+     h2 {
+        width:200px;
+        color:#4aaaa5;
+        padding:0;
+    }
+
+    hr {
+        border:1px solid #ddd;
+    }
+
+       
