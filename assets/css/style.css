@@ -72,10 +72,7 @@ h1 {
 
 .background-pattern {
     width:100%;
-    background-image:url('assets/images/houndstooth-pattern.png');
-    background:silver;
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/houndstooth-pattern.png");
     border-top:2px solid#ccc;
 }    
 
