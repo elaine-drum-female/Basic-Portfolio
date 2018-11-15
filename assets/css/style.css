@@ -71,7 +71,7 @@ h1 {
 
 .background-pattern {
     width:100%;
-    background-image:url('/assets/images/folk-pattern.png');
+    background-image:url('assets/images/folk-pattern.png');
     background:silver;
     background-size:cover;
     background-repeat: no-repeat;
@@ -162,4 +162,26 @@ section {
         background:#4aaaa5;
         width:100px;
         color:#fff;
+    }
+
+
+
+    /********************
+    PORTFOLIO SECTION
+    */
+
+    .gallery {
+        width:500px;
+        margin:0;
+        padding:0;
+    }
+
+    .gallery li {
+        list-style:none;
+        margin:20px 20px 20px 0;
+        display:inline-block;
+    }
+
+    .gallery li img {
+        max-width:150px;
     }
