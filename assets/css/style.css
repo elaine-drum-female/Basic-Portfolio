@@ -30,6 +30,7 @@ h1 {
     display:inline-block;
     padding:20px;
     font-family:'Georgia', Times, Times New Roman, serif;
+    margin:10px 0 0;
 }
 
  nav {
@@ -71,10 +72,11 @@ h1 {
 
 .background-pattern {
     width:100%;
-    background-image:url('assets/images/folk-pattern.png');
+    background-image:url('assets/images/houndstooth-pattern.png');
     background:silver;
     background-size:cover;
     background-repeat: no-repeat;
+    border-top:2px solid#ccc;
 }    
 
 section {
@@ -180,8 +182,20 @@ section {
         list-style:none;
         margin:20px 20px 20px 0;
         display:inline-block;
+        position:relative;
     }
 
     .gallery li img {
         max-width:150px;
+        display:inline-block;
+    }
+
+    .gallery img + p {
+        background:#4aaaa5;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align:center;
+        color:#fff;
+
     }
